@@ -1,6 +1,6 @@
 const { config: { db: { user, password, engine, host, name, port } } } = require("./../config")
 const USER = encodeURIComponent(user)
-const PASSWORD = encodeURIComponent(password)
+const PASSWORD = password
 module.exports = {
   "development": {
     "username": USER,
