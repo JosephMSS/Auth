@@ -35,7 +35,7 @@ module.exports = {
     });
   },
 
-  async down() {
+  async down(queryInterface) {
     /**
      * Add reverting commands here.
      *
